@@ -25,7 +25,7 @@ $("#logoJS").fadeOut("slow", function () {
     $("#logoJS").fadeIn(3800);
 });
 
-$(".ingresarfecha").fadeIn(2700);
+$(".ingresarfecha").fadeIn(3000);
 
 
 
