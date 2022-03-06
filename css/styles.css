@@ -5,11 +5,10 @@ body {
 
 section {
   background-color: #bdbabaf6;
-  justify-content: center;
-  align-content: center;
   text-align: center;
   width: 80%;
-  margin-left: 10%;
+  border-radius: 25px 25px 25px 25px;
+  padding: 10%;
 }
 
 .cargando {
