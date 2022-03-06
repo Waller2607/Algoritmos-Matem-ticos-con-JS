@@ -9,6 +9,7 @@ section {
   justify-content: center;
   align-content: center;
   text-align: center;
+  border-radius: 25px 25px 25px 25px;
   margin-left: 20%;
 }
 
