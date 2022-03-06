@@ -7,6 +7,9 @@ section {
   background-color: #bdbabaf6;
   text-align: center;
   width: 80%;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
   border-radius: 25px 25px 25px 25px;
   margin-left: 10%;
 }
