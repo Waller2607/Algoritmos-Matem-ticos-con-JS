@@ -10,6 +10,7 @@ section {
   align-content: center;
   text-align: center;
   margin-left: -10%;
+  border-radius: 25px 25px 25px 25px;
 }
 
 .cargando {
