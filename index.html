@@ -187,6 +187,13 @@
 	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 	<script src="js/animaciones.js"></script>
 	<script src="js/eventos.js" type="module"></script>
+	<script>
+		if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
+			var inputs = document.querySelectorAll('input[type="number"]');
+			for (var i = inputs.length; i--;)
+				inputs[i].setAttribute('pattern', '\\d*');
+		}
+	</script>
 </body>
 
 </html>
